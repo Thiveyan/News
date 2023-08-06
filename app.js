@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 
 
 const app = express()
-const port = 5001
+const port = 5000
 
 // Static Files
 app.use(express.static('public'))
